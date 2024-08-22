@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RentAcarApplication",
+            "request": "launch",
+            "mainClass": "kodlama.io.rentAcar.webApi.RentAcarApplication",
+            "projectName": "rentAcar"
+        },
+        {
+            "type": "java",
+            "name": "RentAcarApplication",
+            "request": "launch",
+            "mainClass": "kodlama.io.rentAcar.webApi.controllers.RentAcarApplication",
+            "projectName": "rentAcar"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RentAcarApplication<rentAcar>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "kodlama.io.rentAcar.RentAcarApplication",
+            "projectName": "rentAcar",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
